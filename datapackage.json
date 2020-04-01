@@ -1,0 +1,63 @@
+{
+  "name": "kenneth-french-data-library",
+  "title": "Kenneth french data library",
+  "resources": [
+    {
+      "path": "data/avg_value_weighted_returns.csv",
+      "pathType": "local",
+      "name": "avg_value_weighted_returns",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Cnsmr",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Manuf",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "HiTec",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Hlth",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Other",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "description": "Detail for 5 Industry Portfolios",
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ]
+}
